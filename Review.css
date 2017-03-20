@@ -1,0 +1,53 @@
+body
+{
+	font-family: monospace;
+	background-image: url("https://www.walldevil.com/wallpapers/a90/crystal-shard.jpg");
+	background-color: #cccccc;
+}/*body*/
+
+h1
+{
+	margin: 2% 25%;
+	text-align: center;
+	background: #00FF7F;
+	border-style: inset;
+	border-color: green;
+	border-width: 7px;
+}/*h1*/
+
+h2
+{
+	margin: 2% 35%;
+	text-align:center;
+	background: #00FF7F;
+	border-style: inset;
+	border-color: green;
+	border-width: 7px;
+}/*h2*/
+
+
+p
+{
+	background: #00FF7F;
+	border-style: inset;
+	border-color: green;
+	border-width: 7px;
+}/*p*/
+
+p.p2
+{
+	margin: 0% 25% 0% 0%;
+}/*p2*/
+
+p.p4
+{
+	margin: 0% 82% 0% 0%
+}/*p4*/	
+
+p.p5
+{
+	margin: 1% 82.5% 0% 0%
+}/*p5*/
+
+
+

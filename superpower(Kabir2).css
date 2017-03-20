@@ -1,0 +1,24 @@
+body
+{
+	background-color: silver;
+	margin: 10%;
+	padding: 0% 5%;
+	border: lime ridge;
+}/*body*/
+h1
+{
+	font-family: sans-serif;
+}/*h1*/
+h2
+{
+	font-family: cursive;
+	border-left: solid blue;
+	background-color: lightblue;
+	padding: 0% 0% 0% 3%
+}/*h2*/
+p
+{
+	font-family: verdana;
+	border: dashed olive;
+	padding: 2%
+}/*p*/

@@ -1,0 +1,49 @@
+body
+{
+	background: black;
+}/*body*/
+
+h1
+{
+	color: black;
+	background: green;
+	text-align: center;
+	font-family: monospace;
+}/*h1*/
+
+p.billy
+{
+	color: green;
+	background: black;
+	text-align: center;
+	font-family: monospace;
+}/*p.billy*/
+
+h2
+{
+	color: black;
+	background: green;
+	font-family: monospace;
+}/*h2*/
+
+p
+{
+	color: black;
+	background: Green;
+	font-family: monospace;
+	margin: 10%;
+	padding: 10%;
+	border: ridge;
+}/*p*/
+
+ul
+{
+	background: green;
+	font-family: monospace;
+}/*ul*/
+
+ol
+{
+	background: green;
+	font-family: monospace;
+}/*ol*/

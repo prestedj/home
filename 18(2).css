@@ -1,0 +1,52 @@
+/*Please excuse the excessive use of border-related formatting. If I was to use only "border" for certain subjects, the border did not render within the webpage*/ 
+
+body
+{
+	font-family: serif;
+	background-image: url("http://wallpapercave.com/wp/21ZXJK7.jpg");
+	background-color: #cccccc;
+	
+}/*body*/
+
+h1
+{
+	background: orange;
+	border-style: ridge;
+	border-width: 7px;
+	border-color: #EE7600;
+	text-align: center;
+}/*h1*/
+
+h2
+{
+	text-align: left;
+	background: orange;
+	border-style: ridge;
+	border-width: 7px;
+	border-color: #EE7600;
+	margin: 0% 75% 0% 0%;
+}/*h2*/
+
+h2.BecomeMusician
+{
+	margin: 0% 72% 0% 0%;
+}/*BecomeMusician*/
+
+img
+{
+	display: block;
+    margin-left: auto;
+    margin-right: auto; 
+	border-style: ridge;
+	border-width: 7px;
+	border-color: #EE7600;
+}/*img*/
+	
+p
+{
+	padding: 10px;
+	background:  #B22222;
+	border-style: ridge;
+	border-width: 7px;
+	border-color: #EE7600;
+}/*p*/
