@@ -1,0 +1,23 @@
+body
+{
+	background-image: url("http://cdn.wonderfulengineering.com/wp-content/uploads/2014/09/yellow-wallpaper-2.jpg");
+	background-color: #cccccc;
+	Margin: 10% 25%
+}/*body*/
+
+h1
+{
+	background-color: #F6F601;
+	text-align: center;
+	border-style: dashed;
+	border-width: 7px;
+	border-color: black;
+}/*h2*/
+
+p
+{
+	background-color: #F6F601;
+	border-style: dashed;
+	border-width: 7px;
+	border-color: black;
+}/*p*/
