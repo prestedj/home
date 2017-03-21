@@ -21,3 +21,11 @@ p
 	border-width: 7px;
 	border-color: black;
 }/*p*/
+
+ul
+{
+	background-color: #F6F601;
+	border-style: dashed;
+	border-width: 7px;
+	border-color: black;
+}/*ul*/
