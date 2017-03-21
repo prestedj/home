@@ -5,14 +5,14 @@ body
 	Margin: 10% 25%
 }/*body*/
 
-image
+img
 {
 	background-color: #F6F601;
 	text-align: center;
 	border-style: dashed;
 	border-width: 7px;
 	border-color: black;
-}/*image*/
+}/*img*/
 
 h1
 {
