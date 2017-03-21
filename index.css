@@ -1,15 +1,6 @@
 body
 {
-	background-image: url("http://cdn.wonderfulengineering.com/wp-content/uploads/2014/09/yellow-wallpaper-2.jpg");
-	background-color: #cccccc;
+	background-color: blue;
 	Margin: 10% 25%
 }/*body*/
 
-span.index
-{
-	background-color: #F6F601;
-	text-align: center;
-	border-style: dashed;
-	border-width: 7px;
-	border-color: black;
-}/*index*/
