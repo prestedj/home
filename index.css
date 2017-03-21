@@ -6,13 +6,15 @@ body
 h1
 {
 	Background-color: #00FFFF;
-	border: solid black 7px;
+	border-style: inset;
+        border-width: 5px;
 }/*h1*/
 
 ul
 {
 	Background-color: #00FFFF;
-	border: solid black 7px;
+	border-style: inset;
+        border-width: 5px;
 }/*ul*/
 	
 
