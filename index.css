@@ -5,44 +5,11 @@ body
 	Margin: 10% 25%
 }/*body*/
 
-img
+span.index
 {
 	background-color: #F6F601;
 	text-align: center;
 	border-style: dashed;
 	border-width: 7px;
 	border-color: black;
-}/*img*/
-
-h1
-{
-	background-color: #F6F601;
-	text-align: center;
-	border-style: dashed;
-	border-width: 7px;
-	border-color: black;
-}/*h2*/
-
-p
-{
-	background-color: #F6F601;
-	border-style: dashed;
-	border-width: 7px;
-	border-color: black;
-}/*p*/
-
-ul
-{
-	background-color: #F6F601;
-	border-style: dashed;
-	border-width: 7px;
-	border-color: black;
-}/*ul*/
-
-li
-{
-	background-color: #F6F601;
-	border-style: dashed;
-	border-width: 7px;
-	border-color: black;
-}/*li*/
+}/*index*/
