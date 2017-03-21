@@ -5,6 +5,15 @@ body
 	Margin: 10% 25%
 }/*body*/
 
+image
+{
+	background-color: #F6F601;
+	text-align: center;
+	border-style: dashed;
+	border-width: 7px;
+	border-color: black;
+}/*image*/
+
 h1
 {
 	background-color: #F6F601;
@@ -29,3 +38,11 @@ ul
 	border-width: 7px;
 	border-color: black;
 }/*ul*/
+
+li
+{
+	background-color: #F6F601;
+	border-style: dashed;
+	border-width: 7px;
+	border-color: black;
+}/*li*/
