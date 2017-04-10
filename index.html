@@ -15,14 +15,11 @@
 		  <li><a href="DefinitionList.html">My List Of ICS Definitions!</a></li>
 		  <li><a href="Demo.html">My Careers Computer Demonstration!</a></li>
 	  </ul></span>
-	  <p id="demo">A Paragraph.</p>
-		<button type="button" onclick="myFunction()">Try it</button>
+	<button type="button"
+onclick="document.getElementById('demo').innerHTML = Date()">
+Click me to display Date and Time.</button>
 
-		<script>
-		function myFunction() {
-    		document.getElementById("demo").innerHTML = "Paragraph changed.";
-		}
-		</script>
+<p id="demo"></p>
 		
   </body>
 </html>    
