@@ -11,6 +11,20 @@
 	}
 	//-->
 	</script>
+	<script type="text/javascript">
+	<!--
+	function confirmation() {
+	var answer = confirm("Leave Josh Prested's Webpage")
+	if (answer){
+		alert("Farewell human. You will be sent to victoria park wiki's websight design page.")
+		window.location = "http://vpcs.wikispaces.com/Website+Design";
+		}
+		else{
+			alert("Thanks you for staying!")
+		}
+	}
+	//-->
+</script>
 	
   </head>
   <body>
@@ -42,6 +56,9 @@
 	  <p> </p>
 	  <form>
 	  <input type="button" value="Click Here to Print This Page" onClick="window.print()" />
+          </form>
+	  <form>
+	  <input type="button" onclick="confirmation()" value="Leave This Page">
           </form>
 	 
   </body>
