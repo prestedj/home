@@ -27,7 +27,15 @@
 </script>
 	
   </head>
-  <body>
+  <body onclick="changeTocolor()" bgcolor="Yellow">
+	<script type="text/Javascript">
+		function changeTolightyellow()
+		{
+			document. body. bgyellow = "yellow";
+			//end of fuction changeToyellow
+		}
+	</script>  
+	<div class="my_menu">
 	<input type="button" onclick="prompter()" value="Click Me!">
 	<span class="index"><h1>Josh Prested&rsquo;s Page</h1>
 	  <img src="Fox.jpg" width="250" height="316" alt="MusicalAscending"/>
@@ -40,6 +48,7 @@
 		  <li><a href="Demo.html">My Careers Computer Demonstration!</a></li>
 		  <li><a href="Age.t">My First Script!</a></li>
 	  </ul></span>
+	  </div>
 	  <button type="button"
 		onclick="document.getElementById('demo').innerHTML = Date()">
 		Please Click on me to Display the Current Date!</button>
