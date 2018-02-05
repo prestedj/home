@@ -58,24 +58,48 @@
 	  <button onclick="myFunction()">Reload page</button>
 
 	  <script>
-	  function myFunction() 
-	  {
-          location.reload();
-          }
-	  </script>
+	  	function myFunction() 
+	  	{
+          	location.reload();
+          	}
+	 	 </script>
 	  
 	  <p> </p>
 	  
 	  <form>
-	  <input type="button" value="Click Here to Print This Page" onClick="window.print()" />
+	  	<input type="button" value="Click Here to Print This Page" onClick="window.print()" />
           </form>
 	  
 	  <p> </p>
 	  
 	  <form>
-	  <input type="button" onclick="confirmation()" value="Leave This Page">
-          </form>
-	 
+	  	<input type="button" onclick="confirmation()" value="Leave This Page">
+	  </form>
+	  
+	  <?php
+		echo "Script filename: ". $_SERVER['PHP_SELF'];
+		echo "<br>";
+		echo "Gateway interface: ". $SERVER['GATEWAY_INTERFACE'];
+		echo "<br>";
+		echo "Host IP Address: ". $SERVER['SERVER_ADDR'];
+		echo "<br>";
+		echo "Name of Server: ". $SERVER['SERVER_NAME'];
+		echo "<br>";
+		echo "Server ID string: ". $SERVER['SERVER-SOFTWARE'];
+		echo "<br>";
+		echo "Name and Revision of information Protocol: ". $SERVER['SERVER_PROTOCOL'];
+		echo "<br>";
+		echo "Request method: ". $SERVER['REQUEST_METHOD'];
+		echo "<br>";
+		echo "Timestamp of Start of request: ". $SERVER['REQUEST_TIME'];
+		echo "<br>";
+		echo "Accept Header of Current Request: ". $SERVER['HTTP_ACCEPT'];
+		echo "<br>";
+		echo "Accept Charset Header of Current request: ". $SERVER['HTTP_ACCEPT_CHARSET];
+		echo "<br>";
+		echo "Host Header from Current Request: ". $SERVER['HTTP_HOST]
+		echo "<br>";
+	?>	
   </body>
 </html>    
     
