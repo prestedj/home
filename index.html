@@ -77,27 +77,27 @@
 	  </form>
 	  
 	  <?php
-		echo "Script filename: ". $_SERVER['PHP_SELF'];
+		echo "Script filename: ", $_SERVER['PHP_SELF'];
 		echo "<br>";
-		echo "Gateway interface: ". $SERVER['GATEWAY_INTERFACE'];
+		echo "Gateway interface: ", $_SERVER['GATEWAY_INTERFACE'];
 		echo "<br>";
-		echo "Host IP Address: ". $SERVER['SERVER_ADDR'];
+		echo "Host IP Address: ", $_SERVER['SERVER_ADDR'];
 		echo "<br>";
-		echo "Name of Server: ". $SERVER['SERVER_NAME'];
+		echo "Name of Server: ", $_SERVER['SERVER_NAME'];
 		echo "<br>";
-		echo "Server ID string: ". $SERVER['SERVER-SOFTWARE'];
+		echo "Server ID string: ", $_SERVER['SERVER-SOFTWARE'];
 		echo "<br>";
-		echo "Name and Revision of information Protocol: ". $SERVER['SERVER_PROTOCOL'];
+		echo "Name and Revision of information Protocol: ", $_SERVER['SERVER_PROTOCOL'];
 		echo "<br>";
-		echo "Request method: ". $SERVER['REQUEST_METHOD'];
+		echo "Request method: ". $_SERVER['REQUEST_METHOD'];
 		echo "<br>";
-		echo "Timestamp of Start of request: ". $SERVER['REQUEST_TIME'];
+		echo "Timestamp of Start of request: ", $_SERVER['REQUEST_TIME'];
 		echo "<br>";
-		echo "Accept Header of Current Request: ". $SERVER['HTTP_ACCEPT'];
+		echo "Accept Header of Current Request: ", $_SERVER['HTTP_ACCEPT'];
 		echo "<br>";
-		echo "Accept Charset Header of Current request: ". $SERVER['HTTP_ACCEPT_CHARSET];
+		echo "Accept Charset Header of Current request: ", $_SERVER['HTTP_ACCEPT_CHARSET];
 		echo "<br>";
-		echo "Host Header from Current Request: ". $SERVER['HTTP_HOST]
+		echo "Host Header from Current Request: ", $_SERVER['HTTP_HOST]
 		echo "<br>";
 	?>	
   </body>
