@@ -1,0 +1,32 @@
+
+body
+{
+	font-family: monospace;
+	background: rgb(138, 140, 145);
+	border-style: groove;
+	border-width: 10px
+}/*body*/
+
+h1
+{
+	color: yellow;
+	text-align: center;
+}/*h1*/
+
+h2
+{
+	text-align: center;
+	background: yellow;
+	border-style: groove;
+	border-width: 10px;
+	margin: 0% 35%;
+}/*h2*/
+
+p
+{
+	padding: 10px;
+	background: yellow;
+	border-style: groove;
+	border-width: 10px
+}/*p*/
+
