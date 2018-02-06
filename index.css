@@ -13,6 +13,15 @@ h1
 	text-align: center;
 }/*h1*/
 
+img
+{
+	display: block;
+    margin-left: auto;
+    margin-right: auto; 
+	border-style: groove;
+	border-width: 10px;
+}/*img*/
+
 h2
 {
 	text-align: center;
