@@ -9,20 +9,20 @@ body
 
 h1
 {
-	background: orange;
+	background: #00FFFF;
 	border-style: ridge;
 	border-width: 7px;
-	border-color: #EE7600;
+	border-color: blue;
 	text-align: center;
 }/*h1*/
 
 h2
 {
 	text-align: left;
-	background: orange;
+	background: #00FFFF;
 	border-style: ridge;
 	border-width: 7px;
-	border-color: #EE7600;
+	border-color: blue;
 	margin: 0% 75% 0% 0%;
 }/*h2*/
 
@@ -38,15 +38,15 @@ img
     margin-right: auto; 
 	border-style: ridge;
 	border-width: 7px;
-	border-color: #EE7600;
+	border-color: blue;
 }/*img*/
 	
 p
 {
 	padding: 10px;
-	background:  #B22222;
+	background:  #00FFFF;
 	border-style: ridge;
 	border-width: 7px;
-	border-color: #EE7600;
+	border-color: blue;
 }/*p*/
 
