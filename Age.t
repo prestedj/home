@@ -11,3 +11,5 @@ get year
 
 %output
 put skip, "You are: ", year-birthYear, " years old!"
+
+<p>Return to my home page <a href="index.html">here</a>.</p>
