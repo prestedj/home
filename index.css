@@ -50,3 +50,12 @@ p
 	border-color: blue;
 }/*p*/
 
+.links
+{
+	padding: 10px;
+	background:  #00FFFF;
+	border-style: ridge;
+	border-width: 7px;
+	border-color: blue;
+}/*p*/
+
