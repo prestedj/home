@@ -2,7 +2,7 @@
 body
 {
 	font-family: serif;
-	background-image: url("indexWallpaper.jpg");
+	background-image: src("indexWallpaper.jpg");
 	background-color: #cccccc;
 	
 }/*body*/
